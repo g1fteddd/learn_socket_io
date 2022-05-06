@@ -4,7 +4,7 @@ const form = document.querySelector('.form')
 const input = document.querySelector('.input')
 const nameBlock = document.querySelector('.name')
 
-const userName = "User"
+const userName = prompt('Введите имя:')
 
 nameBlock.innerHTML = `${userName}`
 
